@@ -1,5 +1,14 @@
 # md2xliff
 
+This fork has some changes in order to support XLIFF placeholder for:
+
+- markdown wrapped into `<span>` and `<div>` tags
+- markdown with a [Front Matter](https://jekyllrb.com/docs/frontmatter) header
+- markdown which contains [Handlebars](https://github.com/wycats/handlebars.js) partials and helper
+- markdown which contains [FreeMarker](https://github.com/apache/incubator-freemarker) syntax
+
+---
+
 Markdown to [XLIFF](http://www.oasis-open.org/committees/xliff/documents/xliff-specification.htm) and XLIFF to markdown converter.
 
 Idea behind it is described at [XML in Localisation: Use XLIFF to Translate Documents](http://www.maxprograms.com/articles/xliff.html) article.
