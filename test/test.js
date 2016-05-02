@@ -67,7 +67,7 @@ qux: 'frontmatter with: a colon'
 ---
 `
     convertToXliffAndBack(template, (xliff, sklt) => {
-      assert.ok(xliff.indexOf('<ph id="1" ctype="x-yaml-front-matter"></ph>frontmatter with: a colon') !== -1, 'front-matter')
+      assert.ok(xliff.indexOf('frontmatter with: a colon') !== -1, 'front-matter')
       assert.ok(sklt.indexOf('foo: %%%1%%%') !== -1, 'front-matter')
     }, done)
   })
