@@ -7,6 +7,13 @@ This fork has some changes in order to support XLIFF placeholder for:
 - markdown which contains [Handlebars](https://github.com/wycats/handlebars.js) partials and helper
 - markdown which contains [FreeMarker](https://github.com/apache/incubator-freemarker) syntax
 
+##### new environment variable:
+
+`MD2XLIFF_SOURCE_FALLBACK`
+
+Set this env variable to 1 to use the `<source>` content if the `<target>` contains
+an empty content.
+
 ---
 
 Markdown to [XLIFF](http://www.oasis-open.org/committees/xliff/documents/xliff-specification.htm) and XLIFF to markdown converter.
